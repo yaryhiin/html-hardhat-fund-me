@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fund Me App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header> Fund Me App</header>
+    <main>
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <p>Minning ehgkdsjhgwkjlhgjwrljgs</p>
+            </div>
+        </div>
+        <div id="container">
+            <button id="connect-btn" class="button">Connect</button>
+            <div id="fund-container">
+                <label for="ethAmount" class="label">ETH amount (min: 1$)</label>
+                <input id="ethAmount" class="input" placeholder="0.001"/>
+                <button id="fund-btn" class="button">Fund</button>
+            </div>
+            <div id="withdraw-container">
+                <button id="withdraw-btn" class="button">Withdraw (only for owner)</button>
+            </div>
+            <div id="balance-container">
+                <p  id="balance-value">Contract balance: -</p>
+                <button id="balance-btn" class="button">Get Balance</button>
+            </div>
+            <div id="funder-top-container">
+                <button id="fundersTop-btn" class="button">Show funders Top</button>
+                <div id="fundersTop-el"></div>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>

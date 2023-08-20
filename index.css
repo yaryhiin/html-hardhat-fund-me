@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+#container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#balance-value {
+    margin-bottom: 0;
+}
+
+.button {
+    background-color: #4285f4;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+/* Position Connect button on the right side */
+#connect-btn {
+    margin-left: 80%;
+    margin-bottom: 4%;
+}
+
+.label {
+    margin-top: 1rem;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#funder-top-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#fundersTop-el {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.list-el {
+    margin: 1.5rem;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 600px) {
+    #container {
+        padding: 0.5rem;
+    }
+    .input {
+        padding: 0.3rem;
+    }
+    .button {
+        font-size: 0.9rem;
+    }
+}
